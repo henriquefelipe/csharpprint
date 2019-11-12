@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryNet", "LibaryNet\LibraryNet.csproj", "{27E7F291-FF37-4D92-9E35-3BBF56C343B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WF", "WF\WF.csproj", "{1D8FA00F-ED01-4AC8-9452-90CA61D80D52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Models\Library.csproj", "{CE7B3287-A359-4383-B66E-DD228D0414B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27E7F291-FF37-4D92-9E35-3BBF56C343B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27E7F291-FF37-4D92-9E35-3BBF56C343B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27E7F291-FF37-4D92-9E35-3BBF56C343B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27E7F291-FF37-4D92-9E35-3BBF56C343B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D8FA00F-ED01-4AC8-9452-90CA61D80D52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D8FA00F-ED01-4AC8-9452-90CA61D80D52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D8FA00F-ED01-4AC8-9452-90CA61D80D52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D8FA00F-ED01-4AC8-9452-90CA61D80D52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE7B3287-A359-4383-B66E-DD228D0414B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE7B3287-A359-4383-B66E-DD228D0414B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE7B3287-A359-4383-B66E-DD228D0414B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE7B3287-A359-4383-B66E-DD228D0414B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B12EC33F-8C08-4B8D-8659-B956172C6F2D}
+	EndGlobalSection
+EndGlobal

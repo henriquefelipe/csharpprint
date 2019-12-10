@@ -80,9 +80,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LibaryNet\CSharpPrinter.csproj">
+    <ProjectReference Include="..\LibaryNet\CSharpPrint.csproj">
       <Project>{27E7F291-FF37-4D92-9E35-3BBF56C343B6}</Project>
-      <Name>CSharpPrinter</Name>
+      <Name>CSharpPrint</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

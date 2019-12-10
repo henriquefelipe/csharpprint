@@ -84,9 +84,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LibaryNet\CSharpPrinter.csproj">
+    <ProjectReference Include="..\LibaryNet\CSharpPrint.csproj">
       <Project>{27e7f291-ff37-4d92-9e35-3bbf56c343b6}</Project>
-      <Name>CSharpPrinter</Name>
+      <Name>CSharpPrint</Name>
     </ProjectReference>
     <ProjectReference Include="..\Models\Library.csproj">
       <Project>{ce7b3287-a359-4383-b66e-dd228d0414b5}</Project>

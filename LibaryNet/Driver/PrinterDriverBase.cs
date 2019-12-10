@@ -213,6 +213,14 @@ namespace LibaryNet.Driver
             return $"{drivername}, on device {devicename}";
         }
 
+        public string FriendlyName
+        {
+            get
+            {
+                return ToString();
+            }
+        }
+
         internal bool SendBytesToPrinter(string szPrinterName, string docname, 
             IntPtr pBytes, Int32 dwCount)
         {

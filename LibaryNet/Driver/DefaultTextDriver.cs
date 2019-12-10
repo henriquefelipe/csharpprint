@@ -27,6 +27,7 @@ namespace LibaryNet.Driver
             scalecompres = 1;
             scaleexpanded = 1;
             defaultcolumns = 48;
+            columns = 48;
             defaultejectlines = 0;
             hasplaintext = true;
             compress[INDEX_FALSE] = "";

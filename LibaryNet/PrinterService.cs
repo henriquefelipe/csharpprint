@@ -1,7 +1,7 @@
 ﻿using LibaryNet.Driver;
 using LibaryNet.Enum;
 using LibaryNet.PrinterServiceFunctions;
-using LibraryNet;
+using CSharpPrint;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LibraryNet
+namespace CSharpPrint
 {
     public class PrinterService
     {

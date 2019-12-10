@@ -1,4 +1,4 @@
-﻿using LibraryNet;
+﻿using CSharpPrint;
 using System;
 
 namespace LibaryNet.PrinterServiceFunctions

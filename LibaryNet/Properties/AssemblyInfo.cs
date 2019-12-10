@@ -5,13 +5,13 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("LibaryNet")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("CSharpPrint")]
+[assembly: AssemblyDescription("Biblioteca nativa para impressão de documentos em impressoras térmicas")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("LibaryNet")]
+[assembly: AssemblyCompany("CSharpPrint")]
+[assembly: AssemblyProduct("CSharpPrint")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyTrademark("CSharpPrint")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible

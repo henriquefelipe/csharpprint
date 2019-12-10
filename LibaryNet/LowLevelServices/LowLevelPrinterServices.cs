@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 using System.IO;
 using System.Management;
 
-namespace LibraryNet
+namespace CSharpPrint
 {
     internal class LowLevelPrinterServices
     {        

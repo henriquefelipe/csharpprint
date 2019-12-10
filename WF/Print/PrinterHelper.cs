@@ -287,7 +287,7 @@ namespace WF.Print
             Cut();
             while (--copies >= 0)
             {
-                RawPrinterHelper.SendStringToPrinter(printerdriver.DeviceName, documentname, TextPrinted);
+                PrinterService.SendStringToPrinter(printerdriver.DeviceName, documentname, TextPrinted);
             }
             FinalizeDoc();
         }
@@ -450,7 +450,7 @@ namespace WF.Print
                 Marshal.Copy(comandos, 0, unmanagedPointer, comandos.Length);
                 Int32 dwCount = comandos.Length;
 
-                RawPrinterHelper.SendBytesToPrinter(printerdriver.DeviceName, "", unmanagedPointer, dwCount);
+                PrinterService.SendBytesToPrinter(printerdriver.DeviceName, "", unmanagedPointer, dwCount);
                 Marshal.FreeCoTaskMem(unmanagedPointer);
             }
             catch(Exception ex)

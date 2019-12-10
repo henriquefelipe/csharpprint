@@ -41,8 +41,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Driver\DefaultBematechDriver.cs" />
+    <Compile Include="Driver\DefaultDarumaDriver.cs" />
+    <Compile Include="Driver\DefaultElginDriver.cs" />
+    <Compile Include="Driver\DefaultEpsonDriver.cs" />
+    <Compile Include="Driver\PrinterDriverBase.cs" />
+    <Compile Include="Driver\DefaultTextDriver.cs" />
+    <Compile Include="Enum\Alignment.cs" />
+    <Compile Include="Enum\DriverType.cs" />
+    <Compile Include="Enum\ExpandType.cs" />
+    <Compile Include="Enum\ImpressoraModelo.cs" />
+    <Compile Include="Enum\Output.cs" />
+    <Compile Include="PrinterService.cs" />
+    <Compile Include="PrinterServiceFunctions\Bold.cs" />
+    <Compile Include="PrinterServiceFunctions\Cut.cs" />
+    <Compile Include="PrinterServiceFunctions\DevOut.cs" />
+    <Compile Include="PrinterServiceFunctions\DevPOS.cs" />
+    <Compile Include="PrinterServiceFunctions\DoubleSep.cs" />
+    <Compile Include="PrinterServiceFunctions\Eject.cs" />
+    <Compile Include="PrinterServiceFunctions\Expand.cs" />
+    <Compile Include="PrinterServiceFunctions\Flush.cs" />
+    <Compile Include="PrinterServiceFunctions\FunctionParameter.cs" />
+    <Compile Include="PrinterServiceFunctions\Guilhotina.cs" />
+    <Compile Include="PrinterServiceFunctions\InitializeDoc.cs" />
+    <Compile Include="PrinterServiceFunctions\Italic.cs" />
+    <Compile Include="PrinterServiceFunctions\LinhaHorizontal.cs" />
+    <Compile Include="PrinterServiceFunctions\NewLine.cs" />
+    <Compile Include="PrinterServiceFunctions\PadCenter.cs" />
+    <Compile Include="PrinterServiceFunctions\PrinterServiceFunction.cs" />
+    <Compile Include="PrinterServiceFunctions\SingleSep.cs" />
+    <Compile Include="PrinterServiceFunctions\Texto.cs" />
+    <Compile Include="PrinterServiceFunctions\UnderlineSep.cs" />
+    <Compile Include="PrinterServiceFunctions\WriteText.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RawPrinterHelper.cs" />
+    <Compile Include="LowLevelServices\LowLevelPrinterServices.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

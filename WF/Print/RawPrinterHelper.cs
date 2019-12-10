@@ -12,7 +12,7 @@ using System.Management;
 
 namespace WF.Net
 {
-    class RawPrinterHelper
+    class PrinterService
     {
         [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Ansi)]
         public class DOCINFOA

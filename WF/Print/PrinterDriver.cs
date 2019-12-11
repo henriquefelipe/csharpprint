@@ -191,6 +191,7 @@ namespace WF.Print
             if (ejectlines < 0)
                 ejectlines = defaultejectlines;
         }
+
         private void DriverText()
         {
             begincmd = "";
@@ -347,6 +348,8 @@ namespace WF.Print
             reservedchars = "";
             openbin = "";
         }
+
+
         private string PlainText(string s)
         {
             if (string.IsNullOrWhiteSpace(s))
